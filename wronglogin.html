@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>*{
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+              text-align: center;
+            }
+            h2{
+                margin-top: 3%;
+                font-size: 30px;
+                font-family: sans-serif;
+            }
+            i{
+                font-size: 100px;
+                color: red;
+                margin-top: 2%;
+            }
+            h3{
+                margin-top: 3%;
+            }
+            p{
+                padding: 6%;
+            }
+            button{
+                margin-top:3%;
+                width: 300px;
+                margin-left: 50px;
+                height: 40px;
+                border-radius: 2rem;
+                background-color: red;
+                color: white;
+                font-size: 20px;
+                border: 2px red solid;
+                box-shadow: 0 0 20px red;
+                margin-right: 6%;
+            }
+            button:hover{
+                background-color: whitesmoke;
+                color: black;
+                box-shadow: 0 0 20px black;
+                border: 2px white solid;
+            }
+
+
+    </style>
+    <title>Wrong-user</title>
+</head>
+<body>
+        <h2><span style="color: red; font-size: 45px;">W</span>rong-user</h2><i class='bx bx-user-x'></i>
+        <h3>sing-in to continue...</h3>
+        <p>"We apologize, but it seems there's been an error. Our system indicates that the credentials entered do not match any active accounts in our database. Please double-check your username and password and try again or sing-in. If you continue to experience issues, please contact our support team for assistance. Thank you for your understanding."</p>
+        <button type="button" onclick="singin()">Sing-In</button>
+        <button type="button" onclick="back()">Back</button>
+
+        <script>
+            function singin(){
+                window.location.href="singup.html";
+            }
+            function back(){
+                window.location.href="login.html";
+            }
+        </script>
+</body>
+</html>

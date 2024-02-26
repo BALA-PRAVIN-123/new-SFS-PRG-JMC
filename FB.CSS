@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #081b29;
+}
+span{
+    color: #0ef;
+    font-size:20px;
+    text-shadow: 0 0 3px black;
+    justify-content: space-between;
+}
+h2{
+    margin-top:1%;
+    font-size: 30px;
+    color: #0ef;
+    margin-left: 100px;
+    text-shadow: 0 0 3px black;
+    background: transparent;
+}
+label{
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+input{
+    margin-top: 2%;
+    width: 300px;
+    height: 40px;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 10px #012290f7,
+    1px 1px 48px #0053b8f7;
+    background-color: whitesmoke;
+    border: 2px solid #012290f7;
+}
+textarea{
+    background-color: whitesmoke;
+    margin-top: 1%;
+    width: 300px;
+    height: 60px;
+    box-shadow: 1px 1px 20px #012290f7,
+    1px 1px 48px #0053b8f7;
+}
+button{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    border: 2px #0ef solid;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 90px;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+}
+button:hover{
+    box-shadow:0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing-in success</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        h2{
+            margin-top: 4%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+        span{
+             color:#0ef;
+             font-size:40px;
+              text-shadow: 0 0 3px black;
+             justify-content: space-between;
+            }
+        h3{
+            margin-top: 3%;
+           
+        }
+        p{
+            padding: 6%;
+            
+        }
+       
+        button{
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px #0ef solid;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 20px;
+    border-radius:3rem;
+    font-weight: 600;
+    background-color: #0ef;
+    box-shadow: 0 0 20px black;
+    border: #0ef 2px solid;
+    justify-content: space-between;
+}
+button:hover{
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 0 0 20px black;
+  border: 2px whitesmoke solid;
+}
+    </style>
+</head>
+<body>
+    <h2><span style="font-family: sans-serif;">y</span>our Details successfully Saved <span style="font-family: sans-serif;">!</span></h2>
+    <h3><span>T</span>hanks To sing-in !</h3>
+    <p>"Congratulations! You have successfully signed in to your account. Welcome back! We're thrilled to have you with us. Feel free to explore and enjoy all the features and benefits our platform has to offer. If you need any assistance or have any questions, don't hesitate to reach out to us. Thank you for choosing us as your trusted service provider!"</p>
+    <h1><span>G</span>o To Login-Page...</h1>
+    <button onclick="back()" type="button">Back</button> <button type="button" onclick="login()" style="margin-right: 6.5%;">Login</button>
+
+    <script>
+        function back(){
+            window.location.href="singup.html";
+        }
+        function login(){
+            window.location.href="login.html";
+        }
+    </script>
+</body>
+</html>

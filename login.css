@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+section{
+    background-color: goldenrod;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/dominik-lange-Lej_oqHljbk-unsplash.jpg);
+    background-size: cover;
+    border-radius: 20rem 0 0 20rem;
+    border-left: 10px double white;
+    box-shadow: 0 0 20px black;
+}
+form{
+    background-color:white;
+    width: 31%;
+    height: 65%;
+    border-radius: 2rem;
+    border: 5px white solid;
+    box-shadow:0 0 30px gray;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;  
+    animation-delay: .5s;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-weight:800;
+    text-shadow: 0 0 1.2px black;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;  
+    animation-delay: 1s;
+    justify-content: space-between;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;  
+    animation-delay: 1.5s;
+    justify-content: space-between;
+}
+input{
+    width: 250px;
+    height: 33px;
+    margin-top: 30px;
+    margin-left:6px;
+    justify-content: space-between;
+    border: 0.5px #0ef solid;
+    box-shadow:0 0 10px #0ef;
+    border-radius: 1rem;
+    padding-left: 10px;
+    border-right: 8px solid black;
+    border-left: 8px solid black;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;  
+    animation-delay: 2s;
+}
+span{
+    color: #0ef;
+    font-size:40px;
+    text-shadow: 0 0 3px black;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;  
+    animation-delay: 2s;
+    justify-content: space-between;
+}
+input:hover{
+    background-color: #0ef;
+    color: black;
+    font-weight: 400;
+}
+label{
+    font-size: 25px;
+    margin-left:15px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;  
+    animation-delay: 2s;
+    justify-content: space-between;
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left:100px;
+    border: 2px #0ef solid;
+    box-shadow: 0 0 10px #0ef;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0ef;
+    box-shadow: 0 0 20px black;
+    border: #0ef 2px solid;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;  
+    animation-delay: 3s;
+    justify-content: space-between;
+}
+button:hover{
+    background-color: #0ef;
+    color: black;
+    box-shadow: 0 0 40px #0ef;
+    border: #0ef 2px solid;
+}
+@media screen and (max-width:576px){
+
+    section{
+        background-color: goldenrod;
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    form{
+        background-color:white;
+        width: 70vh;
+        height: 80vh;
+        border-radius: 2rem;
+        border: 1px white solid;
+        box-shadow:0 0 30px gray;
+        overflow:hidden;
+    }
+    h1{
+        text-align: center;
+        margin-top: 10px;
+        font-weight:800;
+        text-shadow: 0 0 1.2px black;
+    }
+    p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    input{
+        width: 250px;
+        height: 33px;
+        margin-top: 40px;
+        margin-left:6px;
+        border: 0.5px #0ef solid;
+        box-shadow:0 0 10px #0ef;
+        border-radius: 1rem;
+        padding-left: 10px;
+    }
+    input:hover{
+        background-color: #0ef;
+        color: black;
+        font-weight: 400;
+    }
+    label{
+        font-size: 25px;
+        margin-left:15px;
+        font-weight: 600;
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        margin-top: 50px;
+        margin-left:100px;
+        border: 2px #0ef solid;
+        box-shadow: 0 0 10px #0ef;
+        border-radius: 100%;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #0ef;
+        box-shadow: 0 0 20px black;
+        border: #0ef 2px solid;
+    }
+    button:hover{
+        background-color: #0ef;
+        color: black;
+        box-shadow: 0 0 40px #0ef;
+        border: #0ef 2px solid;
+    }
+
+}
+
+
+
+
+
+
+
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;   
+    }
+    100% {
+        transform: translateY(0px);
+        opacity:1;   
+    }
+}
